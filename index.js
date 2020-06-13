@@ -29,7 +29,7 @@ import { OFFICE_LOCATION } from './utils/constants.mjs';
 
         guestList = guestList.sort((a, b) => { return a.partner_id - b.partner_id });
         printResult(guestList);
-        saveResultToFile(guestList);
+        // saveResultToFile(guestList);
     } catch (err) {
         console.error(err);
     }
